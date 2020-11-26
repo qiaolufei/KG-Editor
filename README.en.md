@@ -44,7 +44,23 @@ Visual knowledge graph editor based on [Vue 2.x](https://cn.vuejs.org/v2/guide/)
   - [x] Click the button to reduce
   - [x] Swipe down the mouse wheel
 - [x] Adapt to the canvas
-- [ ] Upload data file to generate knowledge graph function
+- [x] Upload data file to generate knowledge graph function
+
+```js
+// file data format
+{
+    "nodes":[
+        {"id": "node1", "label": "luffy"},
+        {"id": "node2", "label": "24岁"},
+        {"id": "node3", "label": "62kg"}
+    ],
+    "edges":[
+        {"id": "edge1", "source": "node1", "target": "node2", "label": "姓名"},
+		{"id": "edge2", "source": "node1", "target": "node3", "label": "体重"}
+    ]
+}
+```
+
 - [x] Export picture function
 - [x] Help
 
