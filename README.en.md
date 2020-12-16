@@ -22,9 +22,9 @@ Visual knowledge graph editor based on [Vue 2.x](https://cn.vuejs.org/v2/guide/)
 - [x] Add connection---Move the mouse into the node to display the anchor point, click on the anchor point to be the starting node, click on other nodes to realize the connection
 - [x] Edit connection---click the connection to edit the connection in the configurator on the right
 - [x] Thumbnails---the right navigator implements thumbnails
-- [ ] Undo function
-  - [ ] Click the button to cancel
-  - [ ] Ctrl + Z to undo
+- [x] Undo function (Revocation of adding or deleting nodes and connections)
+  - [x] Click the button to cancel
+  - [x] Ctrl + Z to undo
 - [x] Redo function
 - [x] Copy node function
   - [x] Click the button to copy
@@ -69,4 +69,5 @@ Visual knowledge graph editor based on [Vue 2.x](https://cn.vuejs.org/v2/guide/)
 ## Contact Me
 
 #### Email: luffy0101@163.com
-#### WeChat： ![qlc0607](WeChat.jpg)
+#### WeChat： 
+![qlc0607](WeChat.jpg)
