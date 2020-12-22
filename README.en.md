@@ -56,8 +56,8 @@ Visual knowledge graph editor based on [Vue 2.x](https://cn.vuejs.org/v2/guide/)
         ...
     ],
     "edges":[
-        {"id": "edge1", "source": "node1", "target": "node2", "label": "年龄"},
-		    {"id": "edge2", "source": "node1", "target": "node3", "label": "体重"}
+        {"source": "node1", "target": "node2", "label": "年龄"},
+		{"source": "node1", "target": "node3", "label": "体重"}
         ...
     ]
 }
