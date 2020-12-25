@@ -7,6 +7,10 @@ Visual knowledge graph editor based on [Vue 2.x](https://cn.vuejs.org/v2/guide/)
 
 </div>
 
+## Screenshot
+
+<img src="./screenshot.jpg"/>
+
 ## Demo address
 
 <div align="center">
@@ -17,6 +21,7 @@ Visual knowledge graph editor based on [Vue 2.x](https://cn.vuejs.org/v2/guide/)
 
 ## Function introduction
 
+- [x] Support switching multi-type bureau model
 - [x] Add node---Double-click the blank space of the canvas to add a node
 - [x] Edit node---click the node to edit the node in the configurator on the right
 - [x] Add connection---Move the mouse into the node to display the anchor point, click on the anchor point to be the starting node, click on other nodes to realize the connection
@@ -57,7 +62,7 @@ Visual knowledge graph editor based on [Vue 2.x](https://cn.vuejs.org/v2/guide/)
     ],
     "edges":[
         {"source": "node1", "target": "node2", "label": "年龄"},
-		{"source": "node1", "target": "node3", "label": "体重"}
+        {"source": "node1", "target": "node3", "label": "体重"}
         ...
     ]
 }

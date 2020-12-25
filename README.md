@@ -7,6 +7,10 @@
 
 </div>
 
+## 效果截图
+
+<img src="./screenshot.jpg"/>
+
 ## 演示地址
 
 <div align="center">
@@ -17,6 +21,7 @@
 
 ## 功能介绍
 
+- [x] 支持切换多种布局模式
 - [x] 添加节点---双击画布空白处添加节点
 - [x] 编辑节点---点击节点后可在右侧配置器进行编辑节点
 - [x] 添加连线---鼠标移入节点后显示锚点，点击锚点后便作为起始节点，点击其它节点实现连线
@@ -56,7 +61,7 @@
     ],
     "edges":[
         {"source": "node1", "target": "node2", "label": "年龄"},
-		{"source": "node1", "target": "node3", "label": "体重"}
+        {"source": "node1", "target": "node3", "label": "体重"}
     ]
 }
 ```
