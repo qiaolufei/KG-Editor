@@ -19,6 +19,10 @@
 
 </div>
 
+## 源码地址
+
+[基于vue+g6实现的知识图谱编辑器](https://github.com/qiaolufei/kg_editor)
+
 ## 功能介绍
 
 - [x] 支持切换多种布局模式

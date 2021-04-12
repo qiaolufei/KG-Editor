@@ -19,6 +19,10 @@ Visual knowledge graph editor based on [Vue 2.x](https://cn.vuejs.org/v2/guide/)
 
 </div>
 
+## Source Code address
+
+[基于vue+g6实现的知识图谱编辑器](https://github.com/qiaolufei/kg_editor)
+
 ## Function introduction
 
 - [x] Support switching multi-type bureau model
